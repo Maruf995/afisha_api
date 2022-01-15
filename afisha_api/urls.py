@@ -22,4 +22,7 @@ urlpatterns = [
     path('api/v1/data/', views.get_data),
     path('api/v1/movies/', views.movie_list_view),
     path('api/v1/movies/<int:id>/', views.movie_item_view),
+    path('api/v1/genres/', views.genres_view),
+    path('api/v1/login/', views.login),
+    path('api/v1/register/', views.register),
 ]
